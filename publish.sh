@@ -4,7 +4,7 @@
 # Json file to read version from
 jsonVersionFile="composer.json"
 # Files to change versions in
-filesToUpdate=( "composer.json" "wp-bowl.php" )
+filesToUpdate=( "composer.json" "package.json" )
 
 # ------------------------------------------------------------------------------ SHOW STATUS & ASK CONFIRM
 # Show changes
