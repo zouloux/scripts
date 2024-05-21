@@ -1,7 +1,8 @@
 #!/bin/bash
+set -e
 
 # Ask for hostname
-read -p "Which hostname to use for this instance? It should be reprensentative of its domain name, withtou dot. " hostname
+read -p "Which hostname to use for this instance? It should be representative of its domain name, without dot: " hostname
 
 # Set the hostname
 echo $hostname > /etc/hostname
